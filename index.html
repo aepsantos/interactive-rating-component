@@ -12,8 +12,8 @@
   <title>Interactive Rating</title>
 </head>
 <body>
-  <div id="card" class="card">
-    <div id="cardQuestion" class="card-front">
+  <main id="card" class="card">
+    <div id="cardQuestion"> 
       <img src="images/icon-star.svg" alt="icone de estrela" class="card_icon_star">
       <h1 class="card_title">How did we do?</h1>
       <p class="card_content">Please let us know how we did with your support request. All feedback is appreciated 
@@ -36,19 +36,15 @@
       </div>
       <button id="btnSubmit" class="confirmar">Submit</button>
     </div>
-  </div>
-  <div id="teste" class="thanksCard card-back">
-    <div class="thanksCard__main">
-        <img src="images/illustration-thank-you.svg" alt="Imagem de um celular fazendo referência ao envio da avaliação" class="thanksCard__main__img">
-        <p id="notaAvaliacao" class="thanksCard__main__selected"></p>
-        <h1 class="thanksCard__main__title">Thank you!</h1>
-        <p class="thanksCard__main__description">We appreciate you taking the time to give a rating. If you ever need more support, don’t hesitate to get in touch!</p>
+  </main>
+  <section id="cardAnswer" class="thanksCard">
+    <div class="thanksCard__section">
+        <img src="images/illustration-thank-you.svg" alt="Imagem de um celular fazendo referência ao envio da avaliação" class="thanksCard__section__img">
+        <p id="notaAvaliacao" class="thanksCard__section__selected"></p>
+        <h1 class="thanksCard__section__title">Thank you!</h1>
+        <p class="thanksCard__section__description">We appreciate you taking the time to give a rating. If you ever need more support, don’t hesitate to get in touch!</p>
     </div>
-  </div>
-
-
-
-
+  </section>
   <script src="js/index.js"></script>
 </body>
 </html>
